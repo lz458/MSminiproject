@@ -1,0 +1,7 @@
+# .gitignore
+
+# Ignore the MS directory
+MS/
+Output/
+.venv/
+.vscode/
