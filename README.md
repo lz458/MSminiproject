@@ -136,7 +136,7 @@ Data used is available for download.
 
 ## Portfolio Analysis, Risk Management & Hedging
 
-The first part of the analysis investigates the portfolio allocation without using any hedging instruments. It calculates the mean-variance optimised portfolio allocation and finds the efficient frontier using Monte Carlo to generate simulated portfolios. The calculated portfolio is the optimal solution found using Lagrangian optimisation. The marked portfolio is the one with the highest Sharpe ratio in the Monte Carlo universe.
+The first part of the analysis investigates the portfolio allocation without using any hedging instruments. It calculates the mean-variance optimised portfolio allocation and finds the efficient frontier using Monte Carlo to generate simulated portfolios. Note that the Optimised portfolio is virtually no different from the monte carlo portfolio hence often won't show 2 separate dots on the plot. The calculated portfolio is the optimal solution found using Lagrangian optimisation. The marked portfolio is the one with the highest Sharpe ratio in the Monte Carlo universe.
 
 Hedging instruments can be chosen on the left. Short positions are allowed. Mean-variance optimisation is run again to find the optimal weights after hedging.
 
